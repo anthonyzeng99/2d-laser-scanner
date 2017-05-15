@@ -4,10 +4,6 @@
 #include "Arduino.h"
 #include "Stepper.h"
 
-class Motor {
-  
-};
-
 class MotorControl{
   public:
     MotorControl (int steps, int pin0, int pin1, int pin2, int pin3);
