@@ -5,11 +5,14 @@
 
 class Scan {
   public:
-    Scan(int pin);
+    Scan(int pin, int scan_width, int scan_height);
     int read_photosensor();
+    int run_scan(int scan_width, int scan_height);
     
   private:
-    int _photosensor_pin;
+    int photosensor_pin;
+    int scan_height;
+    int scan_width;
 };
 
 #endif
