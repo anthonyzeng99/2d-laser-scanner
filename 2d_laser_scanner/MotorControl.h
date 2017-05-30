@@ -12,8 +12,9 @@ class MotorControl{
     void home();
   
   private:
-    int _current_position;
+    int current_position;
     Stepper *motor;
 };
 
 #endif
+

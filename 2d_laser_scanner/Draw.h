@@ -8,7 +8,7 @@ class Draw {
     Draw(String filename);
 
   private:
-    String _filename;
+    String filename;
 };
 
 #endif
